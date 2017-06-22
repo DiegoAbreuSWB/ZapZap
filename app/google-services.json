@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "608106132006",
+    "firebase_url": "https://zapzap-1adc1.firebaseio.com",
+    "project_id": "zapzap-1adc1",
+    "storage_bucket": "zapzap-1adc1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:608106132006:android:3cd7351028edfa1d",
+        "android_client_info": {
+          "package_name": "com.zap.zapzap.zapzap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "608106132006-pr53sgrkepnqopnne1dcmr79h0c2cp11.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zap.zapzap.zapzap",
+            "certificate_hash": "9366b94f15587b446b2a1aa03cdac58e2fc4de46"
+          }
+        },
+        {
+          "client_id": "608106132006-kgrqcvgv6ghk8i06mljes6plan6eng0v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBA2VqiDnTj4Tt7GffXVurlAupAdQjd5Og"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "608106132006-kgrqcvgv6ghk8i06mljes6plan6eng0v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back"
+    tools:context="com.zap.zapzap.zapzap.Activity.Login_Acitivity">
+
+    <RelativeLayout
+        android:layout_width="406dp"
+        android:layout_height="600dp"
+        android:addStatesFromChildren="true"
+        android:background="@color/back"
+        android:gravity="center_vertical|center_horizontal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="-5dp">
+
+        <EditText
+            android:id="@+id/login_email_id"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="DIGITE SEU E-MAIL"
+            android:inputType="textEmailAddress"
+            android:layout_marginLeft="42dp"
+            android:layout_marginStart="42dp"
+            android:layout_marginTop="82dp"
+            android:layout_below="@+id/imageView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:id="@+id/login_senha_id"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="DIGITE SUA SENHA"
+            android:inputType="textPassword"
+            android:layout_marginBottom="74dp"
+            android:layout_above="@+id/textView3"
+            android:layout_alignRight="@+id/textView3"
+            android:layout_alignEnd="@+id/textView3" />
+
+        <Button
+            android:id="@+id/btn_logar"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:hint="LOGAR"
+            android:layout_marginTop="78dp"
+            android:layout_below="@+id/login_email_id"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_alignStart="@+id/textView3" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="abrir_cadastro_usuario"
+            android:text="Nao tem conta? Clique aqui e cadastre-se ja!"
+            android:layout_below="@+id/btn_logar"
+            android:layout_alignLeft="@+id/login_email_id"
+            android:layout_alignStart="@+id/login_email_id"
+            android:layout_marginTop="16dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="33dp"
+            app:srcCompat="@drawable/logo"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/btn_logar"
+            android:layout_alignEnd="@+id/btn_logar"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
